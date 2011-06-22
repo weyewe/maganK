@@ -155,7 +155,7 @@ table {
 /* Inputs
 -----------------------------------------------------------------------*/
 input[type=text], input[type=password], textarea {
-  background: #ffffff url("../images/input.background.png") 0px 0px repeat-x;
+  background: #ffffff url("/images/input.background.png") 0px 0px repeat-x;
 }
 input[type=text],
 input[type=submit],
@@ -626,7 +626,7 @@ div.message.green a {
 .filter {
   margin: -1px -1px 0;
   overflow: hidden;
-  background: #1b1b21 url("../images/overlay-filter.png") 0px 0px repeat-x;
+  background: #1b1b21 url("/images/overlay-filter.png") 0px 0px repeat-x;
   border: 1px solid #333;
 }
 .filter .push {
@@ -653,7 +653,7 @@ div.message.green a {
   border-right: 1px solid #000;
 }
 .filter li a:hover, .filter li a.active {
-  background: transparent url("../images/overlay-filter.png") 0px 0px repeat-x;
+  background: transparent url("/images/overlay-filter.png") 0px 0px repeat-x;
 }
 .filter li.first a {
   border-left: none;
@@ -686,7 +686,7 @@ div.message.green a {
   width: 230px;
   height: 30px;
   line-height: 30px;
-  background: #ffffff url("../images/input.text.png") 0px 0px repeat-x;
+  background: #ffffff url("/images/input.text.png") 0px 0px repeat-x;
   border: none;
 }
 .filter li.categories span input[type=submit] {
@@ -696,7 +696,7 @@ div.message.green a {
   width: 20px;
   height: 30px;
   line-height: 30px;
-  background: transparent url("../images/input.search.png") 50% 50% no-repeat;
+  background: transparent url("/images/input.search.png") 50% 50% no-repeat;
   border: none;
   cursor: pointer;
 }
@@ -714,7 +714,7 @@ div.message.green a {
   float: right;
   margin: 12px 0 0 0;
   padding: 1px;
-  background: url("../images/opaque.light.png") repeat;
+  background: url("/images/opaque.light.png") repeat;
 }
 .filter li.search form span input[type=text] {
   margin: 0px;
@@ -724,7 +724,7 @@ div.message.green a {
   width: 192px;
   color: #eee;
   border: none;
-  background: url("../images/opaque.dark.png") repeat;
+  background: url("/images/opaque.dark.png") repeat;
 }
 .filter li.search form span button {
   position: absolute;
@@ -732,7 +732,7 @@ div.message.green a {
   right: 3px;
   width: 30px;
   height: 30px;
-  background: transparent url("../images/icon.search.large.alt.png") 50% 50% no-repeat;
+  background: transparent url("/images/icon.search.large.alt.png") 50% 50% no-repeat;
   border: none;
 }
 .white.filter {
@@ -746,7 +746,7 @@ div.message.green a {
   border-right: 1px solid #ccc;
 }
 .white.filter a:hover, .white.filter a.active {
-  background: #eeeeee url(../images/overlay-filter.png) 0px 0px repeat-x;
+  background: #eeeeee url("/images/overlay-filter.png") 0px 0px repeat-x;
 }
 .white.filter li.search form span {
   background: #555;
@@ -833,7 +833,7 @@ div.message.green a {
   line-height: 27px;
   font-size: 13px;
   padding: 0px;
-  background: transparent url("../images/shadow.png") 0px 0px repeat-x;
+  background: transparent url("/images/shadow.png") 0px 0px repeat-x;
   border: 1px solid #000;
 }
 .filter.alt li a span {
@@ -841,19 +841,19 @@ div.message.green a {
   height: 25px;
   line-height: 25px;
   padding: 0px 15px 0px 28px;
-  background: transparent url("../images/filter.checkbox.png") 0px -2px no-repeat;
+  background: transparent url("/images/filter.checkbox.png") 0px -2px no-repeat;
 }
 .filter.alt li a:hover {
-  background: transparent url("../images/overlay-filter.png") 0px 0px repeat-x;
+  background: transparent url("/images/overlay-filter.png") 0px 0px repeat-x;
 }
 .filter.alt li a.active {
-  background: transparent url("../images/overlay-filter.png") 0px 0px repeat-x !important;
+  background: transparent url("/images/overlay-filter.png") 0px 0px repeat-x !important;
 }
 .filter.alt li a.active span {
   background-position: 0px -32px;
 }
 .filter.alt li a.active:hover {
-  background: transparent url("../images/overlay-filter.png") 0px 0px repeat-x !important;
+  background: transparent url("/images/overlay-filter.png") 0px 0px repeat-x !important;
 }
 .filter.alt li.search {
   margin: 0px;
@@ -1024,7 +1024,7 @@ ol.list li:hover {
 .title {
   margin: -1px -1px 0;
   overflow: visible;
-  background: #1b1b21 url("../images/overlay-filter.png") 0px 0px repeat-x;
+  background: #1b1b21 url("/images/overlay-filter.png") 0px 0px repeat-x;
   border: 1px solid #333;
   position: relative;
   padding: 20px 15px 15px;
@@ -1112,7 +1112,7 @@ ol.list li:hover {
   float: right;
   margin: 0 0 0 5px;
   padding: 2px 5px 5px;
-  background: url("../images/opaque.light.png") repeat;
+  background: url("/images/opaque.light.png") repeat;
   color: #fff;
   text-decoration: none;
 }
@@ -1274,7 +1274,7 @@ ul.blog_posts li .datestamp {
   right: 3px;
   width: 30px;
   height: 30px;
-  background: transparent url("../images/icon.search.large.png") 50% 50% no-repeat;
+  background: transparent url("/images/icon.search.large.png") 50% 50% no-repeat;
   border: none;
 }
 /* Details Bar
@@ -1284,7 +1284,7 @@ ul.blog_posts li .datestamp {
   overflow: hidden;
   padding: 15px;
   border-bottom: 1px solid #ccc;
-  background: #e9e9e9 url("../images/gradient.grey.png") 0px 0px repeat-x;
+  background: #e9e9e9 url("/images/gradient.grey.png") 0px 0px repeat-x;
 }
 .listing .datestamp {
 	margin: 15px 15px 0;
@@ -1416,10 +1416,10 @@ OBJECTS
 /* Icons - Toggle States
 -----------------------------------------------------------------------*/
 span.expanded {
-  background: transparent url("../images/icon.expanded.png") 50% 50% no-repeat;
+  background: transparent url("/images/icon.expanded.png") 50% 50% no-repeat;
 }
 span.contracted {
-  background: transparent url("../images/icon.contracted.png") 50% 50% no-repeat;
+  background: transparent url("/images/icon.contracted.png") 50% 50% no-repeat;
 }
 /* Paging
 -----------------------------------------------------------------------*/
@@ -1864,7 +1864,7 @@ em.new {
   margin: 10px 0 0;
   padding: 3px 10px 3px 30px;
   font-size: 12px;
-  background: #ffffff url("../images/spinner.gif") 5px 50% no-repeat;
+  background: #ffffff url("/images/spinner.gif") 5px 50% no-repeat;
 }
 .form_apply fieldset .field label {
   display: inline;
@@ -2073,10 +2073,10 @@ select.styled {
   font-family: 'Helvetica Neue', Arial, Helvetica, Verdana, sans-serif !important;
   line-height: 20px;
   border: 1px solid #bbb;
-  background: url('../images/select.png') center right no-repeat;
+  background: url('/images/select.png') center right no-repeat;
 }
 .cmf-skinned-select:hover {
-  background: url('../images/select_over.png') center right no-repeat;
+  background: url('/images/select_over.png') center right no-repeat;
 }
 div.cmf-skinned-text {
   padding: 5px 7px;
@@ -2164,7 +2164,7 @@ ol.commentlist #respond input[type=submit] {
   overflow: hidden;
   margin: 0 0 20px;
   border: 1px solid #aaa;
-  background: #f2f2f2 url("../images/overlay-filter.png") 0px 0px repeat-x;
+  background: #f2f2f2 url("/images/overlay-filter.png") 0px 0px repeat-x;
 }
 .category_menu ul {
   position: relative;
@@ -2202,7 +2202,7 @@ ol.commentlist #respond input[type=submit] {
   color: #fff;
 }
 .category_menu ul li a:hover, .category_menu ul li.current-cat a , .category_menu ul li.current_page_item a, .category_menu ul li.current-menu-item a{
-  background: #000000 url(../images/overlay-filter.png) 0px 0px repeat-x;
+  background: #000000 url(/images/overlay-filter.png) 0px 0px repeat-x;
 }
 .category_menu ul li a:hover, .category_menu ul li.current-cat a {
   padding: 1px 13px 1px 12px;
@@ -2368,7 +2368,7 @@ ol.commentlist #respond input[type=submit] {
   text-decoration: none;
   text-align: center;
   border: none;
-  background: #222222 url("../images/overlay-button.png") repeat-x 0 0;
+  background: #222222 url("/images/overlay-button.png") repeat-x 0 0;
 }
 button {
   border: none;
@@ -2464,7 +2464,7 @@ form.cmxform legend, form.cmxform label {
 form.cmxform fieldset {
 	border: none;
 	border-top: 1px solid #C9DCA6;
-	background: url(../images/cmxform-fieldset.gif) left bottom repeat-x;
+	background: url(/images/cmxform-fieldset.gif) left bottom repeat-x;
 	background-color: #F8FDEF;
 }
 
@@ -2474,7 +2474,7 @@ form.cmxform fieldset fieldset {
 
 form.cmxform fieldset p, form.cmxform fieldset fieldset {
 	padding: 5px 10px 7px;
-	background: url(../images/cmxform-divider.gif) left bottom repeat-x;
+	background: url(/images/cmxform-divider.gif) left bottom repeat-x;
 }
 
 form.cmxform label.error, label.error {
@@ -2549,7 +2549,7 @@ Name: File uploader
   text-decoration: none;
   text-align: center;
   border: none;
-  background: #222222 url("../images/overlay-button.png") repeat-x 0 0;
+  background: #222222 url("/images/overlay-button.png") repeat-x 0 0;
 }
 .qq-upload-button-hover,.qq-upload-button:hover {
   background-color: #111;
@@ -2592,7 +2592,7 @@ Name: File uploader
 
 
 .qq-upload-file {}
-.qq-upload-spinner {display:inline-block; background: url("../images/spinner.gif"); width:15px; height:15px; vertical-align:text-bottom;}
+.qq-upload-spinner {display:inline-block; background: url("/images/spinner.gif"); width:15px; height:15px; vertical-align:text-bottom;}
 .qq-upload-size,.qq-upload-cancel {font-size:11px;}
 
 .qq-upload-failed-text {display:none;}
